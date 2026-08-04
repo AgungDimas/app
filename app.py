@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import random # Untuk membuat skor acak
 
-# 1. Menyiapkan aplikasi Flask
+#Menyiapkan aplikasi Flask
 app = Flask(__name__)
 
 #Membuat Route GET (Hanya untuk ngecek API hidup atau mati)
