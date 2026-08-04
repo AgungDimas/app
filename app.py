@@ -48,7 +48,7 @@ TAMPILAN_UI = """
         <h1>🚀 Portal AI Tech Assessment</h1>
         <p style="text-align: center; color: #627d98; margin-bottom: 30px;">Selamat datang! Silakan masukkan identitas Anda sebelum memulai tes berbasis AI.</p>
         <div class="form-group">
-            <label>Nama Lengkap Kandidat:</label>
+            <label>Nama Lengkap:</label>
             <input type="text" id="inputNama" placeholder="Ketik nama Anda di sini..." autocomplete="off">
         </div>
         <button class="btn" onclick="mulaiTes()">Mulai Kerjakan Soal ➔</button>
