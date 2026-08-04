@@ -22,7 +22,7 @@ def score_candidate():
     nama = data.get("nama_kandidat", "Anonim")
     
     # Membuat skor AI bohongan (acak dari 70 sampai 100)
-    skor_ai = random.randint(70, 100)
+    skor_ai = random.randint(60, 100)
     
     # Server membalas (Return) dalam bentuk JSON
     return jsonify({
