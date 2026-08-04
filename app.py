@@ -56,7 +56,7 @@ TAMPILAN_UI = """
 
     <!-- TAHAP 2: SCREEN SOAL UJIAN -->
     <div id="step2" class="card">
-        <h1>📝 Ujian Teknis (5 Soal)</h1>
+        <h1>📝 Soal Teknis (5 Soal)</h1>
         <p style="font-size: 14px; color: #627d98;">Kandidat: <b id="displayNama"></b></p>
         
         <div class="form-group">
