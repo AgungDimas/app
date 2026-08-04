@@ -29,7 +29,7 @@ def score_candidate():
         "kandidat": nama,
         "skor_wawancara": skor_ai,
         "status": "Lolos" if skor_ai >= 80 else "Gagal",
-        "catatan": "Diproses oleh Flask API"
+        "catatan": "Diproses oleh Sistem Flask API"
     })
 
 # 4. Menjalankan Server
