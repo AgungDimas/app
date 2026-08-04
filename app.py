@@ -4,7 +4,7 @@ import random # Untuk membuat skor acak
 # 1. Menyiapkan aplikasi Flask
 app = Flask(__name__)
 
-# 2. Membuat Route GET (Hanya untuk ngecek API hidup atau mati)
+#Membuat Route GET (Hanya untuk ngecek API hidup atau mati)
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
