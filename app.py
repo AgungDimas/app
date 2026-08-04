@@ -12,7 +12,7 @@ def home():
         "message": "Halo! API sudah berjalan BungDimas"
     })
 
-# 3. Membuat Route POST (Menerima data kandidat, membalas dengan skor)
+#Route POST (Menerima data kandidat, membalas dengan skor)
 @app.route('/api/score', methods=['POST'])
 def score_candidate():
     # Mengambil data JSON yang dikirim oleh Postman/User
@@ -32,7 +32,7 @@ def score_candidate():
         "catatan": "Diproses oleh Sistem Flask API"
     })
 
-# 4. Menjalankan Server
+#Menjalankan Server
 if __name__ == '__main__':
     # debug=True artinya server akan otomatis refresh kalau kode diubah
     app.run(debug=True)
