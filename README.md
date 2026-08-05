@@ -34,7 +34,7 @@ python --version
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ai-tech-assessment.git
+   git clone https://github.com/AgungDimas/app.git
    cd ai-tech-assessment
    ```
 
